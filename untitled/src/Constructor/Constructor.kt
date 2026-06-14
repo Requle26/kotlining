@@ -1,3 +1,5 @@
+package Constructor
+
 class Refrigerator(var name: String, var foodCount: Int) {
     constructor(name: String) : this(name, 0 ) {
         println("[알림] $name 냉장고가 텅 빈 상태(0개)로 배달되었습니다.")
